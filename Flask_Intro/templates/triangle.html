@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <title>Area of Triangle</title>
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/triangle.css') }}">
+</head>
+    <body class="index">
+        <button class="return"><a href="/works">Return</a></button>
+        <h1>Computing the Area of a Triangle</h1>
+        <hr size="5" width="650px" color="gray">
+        <div class="container">
+            <form action="/triangle" method="post">
+                <label for="inputBase" class="label-base">Input Base:</label>
+                <input type="number" id="inputBase" name="inputBase" class="input-base"></input>    
+                <br>            
+                <label for="inputHeight" class="label-height">Input Height:</label>
+                <input type="number" id="inputHeight" name="inputHeight" class="input-height"></input>
+                <br>
+                
+                {% if result %}
+                <p>Area of Triangle: {{ result }}m²</p>
+                {% else %}
+                <p>Input Proper Values</p>
+                {% endif %}
+
+
+                <br>
+                <input type="submit" value="Solve" class="solve-button">
+            </form>
+        </div>  
+    </body>
+</html>

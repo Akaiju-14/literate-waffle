@@ -1,0 +1,129 @@
+body.index {
+    background-image: url('../BG2.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center; 
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+html, body {
+    height: 100%;
+}
+
+h1 {
+    font-family: fantasy;
+    letter-spacing: 2px;
+    font-style: oblique;
+    font-size: 50px;
+    color: aliceblue;
+    text-align: center;
+    margin: 0%;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+button.works1,
+button.works2,
+button.works3 {
+    outline-color: rgb(34, 34, 34);
+    background-color: rgb(61, 61, 61);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+
+}
+
+button.works2 {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+button.works1:hover,
+button.works2:hover,
+button.works3:hover {
+    background-color: azure;
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px 5px azure;
+}
+
+button.works1 a,
+button.works2 a,
+button.works3 a {
+    text-decoration: none;
+    color: azure;
+
+}
+
+button.works1 a:hover,
+button.works2 a:hover,
+button.works3 a:hover {
+    color: rgb(34, 34, 34);
+    cursor: pointer;
+}
+
+div.group {
+    border-radius: 20px;
+    height: auto;
+    width: auto;
+    border: 3px solid white;
+    background: rgba(65, 64, 64, 40%);
+    margin-top: 12%;
+}
+
+.button {
+    text-align: center;
+}
+
+.return{
+    outline-color: rgb(34, 34, 34);
+    background-color: rgb(61, 61, 61);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-right: 1230px;
+    height: 30px;
+    width: 80px;
+    border-radius: 8px;
+
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.return a {
+    text-decoration: none;
+    color: azure;
+}
+
+.return:hover {
+    background-color: azure;
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px 5px azure;
+}
+
+.return a:hover{
+    color: rgb(34, 34, 34);
+}
+
+hr {
+    border:1px solid white;
+    border-radius: 5px;
+}
+
+

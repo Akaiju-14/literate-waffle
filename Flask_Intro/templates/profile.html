@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Profile</title>
+        <link rel="stylesheet" href="{{ url_for ('static', filename='css/profile.css' ) }}">
+    </head>
+<body class="index1">
+    <button class="return"><a href="/"> Return </a></button>
+    <div class="group">
+        <h1 class="heading">Profile</h1>
+        <hr size="5px" width="90%" color="gray">
+        <div class="image">
+           <img src="{{url_for ('static', filename='author.jpg')}}" alt="image" width="200px" height="200px"> 
+        </div>
+        <div class="text">
+        <p>Name: Eliaz Naimiel Paz</p>
+        <p>Section: BSCPE 2-6</p>
+        <p>19 Years Old</p>
+        <p>PUP Sta. Mesa</p>
+        </div>
+    </div>
+</body>
+</html>

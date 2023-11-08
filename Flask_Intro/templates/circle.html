@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Convert to Uppercase</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/circle.css') }}">
+</head>
+    <body class="index">
+        <button class="return"><a href="/works">Return</a></button>
+        <h1>Convert String to Uppercase</h1>
+        <hr size="5" width="570px" color="gray">
+        <div class="container">
+            <form action="/circle" method="post">
+                <label for="inputCircle" class="input-text">Enter Radius:</label>
+                <input type="text" id="inputCircle" name="inputCircle" class="input">
+                <input type="submit" value="Solve" class="button">
+            </form>
+
+            {% if result %}
+            <p>Area of Circle: {{ result }}m²</p>
+            {% endif %}
+        </div>
+    </body>
+</html>

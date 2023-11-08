@@ -1,0 +1,130 @@
+body.index {
+    background-image: url('../BG2.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center; 
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+html, body {
+    height: 100%;
+}
+
+h1 {
+    font-family: fantasy;
+    letter-spacing: 2px;
+    font-style: oblique;
+    font-size: 50px;
+    color: aliceblue;
+    margin-top: 10%;
+    margin-bottom: 0%;
+}
+
+.input-text {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: aliceblue;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.input{
+    border-radius: 5px;
+    border: 1px solid white;
+    height: 20px;
+    margin-left: 10px;
+}
+
+input.button {
+    outline-color: rgb(34, 34, 34);
+    background-color: rgb(61, 61, 61);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    margin: auto;
+    margin-top: 0px;
+    margin-left: 10px;
+    border-radius: 5px;
+    height: 30px;
+    width: 60px;
+    color: aliceblue;
+
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.button:hover {
+    background-color: azure;
+    color: rgb(34, 34, 34);
+    cursor: pointer;
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px 5px azure;
+}
+
+p {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: aliceblue;
+    margin-top: 20px;
+    margin-bottom:0%;
+}
+
+hr {
+    border:1px solid white;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+form {
+    text-align: center;
+    margin-top: 6%;
+}
+
+.container {
+    height: 130px;
+    width: 500px;
+    border: 3px solid white;
+    border-radius: 20px;
+    background: rgba(65, 64, 64, 40%);
+    margin-top: 0%;
+}
+
+.return{
+    outline-color: rgb(34, 34, 34);
+    background-color: rgb(61, 61, 61);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-right: 1230px;
+    height: 30px;
+    width: 80px;
+    border-radius: 8px;
+    color: azure;
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.return a {
+    text-decoration: none;
+    color: azure;
+}
+
+.return:hover {
+    background-color: azure;
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px 5px azure;
+}
+
+.return a:hover {
+    color: rgb(34, 34, 34);
+}

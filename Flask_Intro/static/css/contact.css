@@ -1,0 +1,109 @@
+body.index {
+    background-image: url('../BG2.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center; 
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+html, body {
+    height: 100%;
+}
+
+div {
+    height: 200px;
+    width: 400px;
+    border-radius: 20px;
+    border: 3px solid rgb(172, 171, 171);
+    background: rgba(65, 64, 64, 40%);
+    margin-top: 175px;
+}
+h1 {
+    font-family: fantasy;
+    letter-spacing: 2px;
+    font-style: oblique;
+    font-size: 50px;
+    color: aliceblue;
+    text-align: center;
+    margin: 0%;
+    margin-top: 20px;
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: aliceblue;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    text-align: center;
+}
+
+hr {
+    border: 1px solid white;
+    margin-bottom: 30px;
+}
+
+.return{
+    outline-color: rgb(34, 34, 34);
+    background-color: rgb(61, 61, 61);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    margin: 0%;
+    margin-right: 1230px;
+    height: 30px;
+    width: 80px;
+    border-radius: 8px;
+
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.return a {
+    text-decoration: none;
+    color: azure;
+}
+
+.return:hover {
+    background-color: azure;
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px 5px azure;
+}
+
+.return a:hover{
+    color: rgb(34, 34, 34);
+}
+
+
+a.text {
+    font-style: italic;
+    text-decoration: none;
+    position: relative;
+    color: aliceblue;
+}
+
+a.text::after {
+    border-radius: 1em;
+    border-top: .1em solid aliceblue;
+    content: "";
+    position: absolute;
+    right: 100%;
+    bottom: .14em;
+    left: 0;
+    transition: right .4s cubic-bezier(0,.5,0,1 );
+}
+
+a.text:hover {
+    text-decoration: none;
+    cursor: default;
+}
+
+a.text:hover::after {
+    right: 0;
+}
+
+
